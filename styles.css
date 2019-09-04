@@ -1,5 +1,28 @@
 .imageClass {
+  width: 100%;
+  max-width:556px;
   text-align:center;
   display:block;
   vertical-align: middle;
+}
+
+a {
+  font-family: 'Sacramento', cursive;
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #FD6154;
+}
+
+label {
+  font-family: 'Sacramento', cursive;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive!important;
+  font-size: 3em!important;
 }
