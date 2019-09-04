@@ -4,6 +4,8 @@
   text-align:center;
   display:block;
   vertical-align: middle;
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+  animation: 1s ease 0s normal forwards 1 fadein;
 }
 
 a,p {
@@ -11,6 +13,18 @@ a,p {
   font-size: 2em;
   text-decoration: none;
   color: black;
+  background-color: white;
+  -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+  animation: 1.5s ease 0s normal forwards 1 fadein;
+}
+
+.container {
+  background: white;
+}
+
+.header {
+  text-align: center;
+  vertical-align: middle;
 }
 
 a:hover {
@@ -25,4 +39,31 @@ label {
 h2 {
   font-family: 'Sacramento', cursive!important;
   font-size: 3em!important;
+  padding: 0.5em;
+}
+
+#id {
+  background-color: white;
+}
+
+
+body {
+  background-image: url("pattern.png");
+  background-repeat: repeat;
+  background-size: 113px 84px;
+}
+@keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.btn-default {
+  background-color: aliceblue!important;
 }
